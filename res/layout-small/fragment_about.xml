@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right"
+    android:background="@drawable/atlanta"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+    
+     <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+        android:background="@color/deep_blue"
+        android:orientation="vertical" >
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="84dp"
+             android:layout_height="84dp"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="50dp"
+             android:src="@drawable/graduation" />
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:text="Conception et réalisation:"
+             android:textAlignment="center"
+             android:layout_marginTop="30dp"
+             android:textSize="15dp"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="@color/white" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="YASMINE SEFOUANE"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="10dp"
+             android:textSize="22dp"
+             android:textStyle="bold"
+             android:textColor="@color/white"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:text="Contact:"
+             android:textAlignment="center"
+             android:layout_marginTop="30dp"
+             android:textSize="15dp"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="@color/white" />
+         
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="yasmine.sefouane@gmail.com"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="10dp"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:textColor="@color/white"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+   
+  
+    
+
+   
+
+</LinearLayout>

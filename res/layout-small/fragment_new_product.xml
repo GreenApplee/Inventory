@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="400dp" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/new_product" />
+
+</ScrollView>
+    
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_gravity="center"
+         android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="250dip"
+            android:layout_height="60dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_selector"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="ENREGISTRER"
+            android:textColor="@color/white"
+            android:textSize="28px" />
+
+    </RelativeLayout>
+
+</LinearLayout>

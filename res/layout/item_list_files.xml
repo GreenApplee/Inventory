@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:background="@color/deep_blue"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+  
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginLeft="5dp"
+      android:orientation="vertical" >
+        
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="file or product"
+        
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="number of products or file"
+          android:textColor="@color/grey"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_gravity="right"
+          android:layout_height="wrap_content" >
+
+          <Button
+              android:id="@+id/button1"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="80dp"
+              android:layout_height="20dp"
+              android:layout_marginTop="5dp"
+              android:background="@color/herbal_green"
+              android:text="Modifier"
+              android:textColor="@color/white" />
+
+          <Button
+              android:id="@+id/button2"
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="80dp"
+              android:layout_height="20dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="5dp"
+              android:background="@color/herbal_green"
+              android:text="Suppprimer"
+              android:textColor="@color/white" />
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:orientation="vertical" >
+  </LinearLayout>
+
+</LinearLayout>
